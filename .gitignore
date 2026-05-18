@@ -1,0 +1,32 @@
+# Godot Engine .gitignore
+
+# Godot export templates
+*.exe
+*.exe.debug
+*.zip
+*.so
+*.dylib
+
+# Generated files
+*.translation
+.import/
+export/
+*.cfg
+!project.godot
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build files
+*.o
+*.a
+*.d
+build/
